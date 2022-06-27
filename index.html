@@ -1,62 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HTML Table Generator</title> 
-	<style>
-		table {
-			border:1px solid #b3adad;
-			border-collapse:collapse;
-			padding:5px;
-		}
-		table th {
-			border:1px solid #b3adad;
-			padding:5px;
-			background: #f0f0f0;
-			color: #313030;
-		}
-		table td {
-			border:1px solid #b3adad;
-			text-align:center;
-			padding:5px;
-			background: #ffffff;
-			color: #313030;
-		}
-	</style>
+	<title></title> 
 </head>
+<style>
+    table {
+    border:1px solid #b3adad;
+    border-collapse:collapse;
+    padding:5px;
+}
+table th {
+    border:1px solid #b3adad;
+    padding:5px;
+    background: #ffffff;
+    color: #000000;
+}
+table td {
+    border:1px solid #b3adad;
+    text-align:center;
+    padding:5px;
+    background: #ffffff;
+    color: #080808;
+}
+</style>
 <body>
-	<table>
-		<thead>
+    <table>
+        <thead>
 			<tr>
-				<th>Header 1</th>
-				<th>Header 2</th>
-				<th>Header 3</th>
-				<th>Header 4</th>
+				<th colspan="3"></th>
+				<th>Субъект</th>
+				<th>Объект</th>
 			</tr>
 		</thead>
 		<tbody>
-			<tr>
-				<td>&nbsp;</td>
-				<td>&nbsp;<saaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa/td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
+            <tr>
+                <td rowspan="5">Единственное число</td>
+                <td colspan="2">1-e лицо</td>
+				<td >Я</td>
+				<td >Меня</td>
 			</tr>
-			<tr>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
+            <tr>
+                <td colspan="2">2-e лицо</td>
+				<td >ты</td>
+				<td >тебя</td>
 			</tr>
-			<tr>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
+            <tr>
+                <td rowspan="3">3-e лицо</td>
+                <td >он</td>
+				<td >он</td>
+				<td >его</td>
 			</tr>
-			<tr>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
-				<td>&nbsp;</td>
+            <tr>
+                <td>она</td>
+				<td >она</td>
+				<td >ее</td>
+			</tr>
+            <tr>
+                <td>оно</td>
+				<td >оно</td>
+				<td >его</td>
+			</tr>
+            <tr>
+                <td rowspan="3">Множественное число</td>
+                <td colspan="2">1-e лицо</td>
+				<td >мы</td>
+				<td >нас</td>
+			</tr>
+            <tr>
+                <td colspan="2">2-e лицо</td>
+				<td >вы</td>
+				<td >вас</td>
+			</tr>
+            <tr>
+                <td colspan="2">2-e лицо</td>
+				<td >они</td>
+				<td >их</td>
 			</tr>
 		</tbody>
 	</table>
